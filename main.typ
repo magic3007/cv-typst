@@ -67,9 +67,9 @@ B.S. in Computer Science and Technology
 
 *Robust FPGA Macro Placement Algorithm Considering Cascaded Macros and Fence Regions* #h(1fr) 2023/06 - 2023/09 \
 // PKU-IDEA Group, advised by Prof. Yibo Lin #h(1fr) Beijing, China \
-- Developed cutting-edge electrostatic-based FPGA placement algorithms to address complex challenges in FPGA placement, including high design utilization (70%-84% LUT, 38%-47% FF, and 80%-90% DSP/BRAM), cascaded macro blocks, intricate interconnection complexity, and region constraints (with up to 44.29% of instances falling under region constraints).
-- Led a team of 5 members and secured *2nd place* in the prestigious #link("https://ieeexplore.ieee.org/document/10299868/")[MLCAD 2023 FPGA Macro Placement Contest]. The bug-fixed version achieved the best results, outperforming the widely used industrial tool `Vivado` by 27.8% in terms of quality score and surpassing the 1st place winner by 6.9%.
-- Implemented a GPU-accelerated version utilizing CUDA, resulting in a remarkable speedup of 3.180$times$ compared to the 1st place winner, showcasing our commitment to pushing the boundaries of performance optimization in FPGA placement algorithms.
+- Developed cutting-edge electrostatic-based FPGA placement algorithms to address the complexity in FPGA placement, including high design utilization (70%-84% LUT, 38%-47% FF, and 80%-90% DSP/BRAM), cascaded macro blocks, intricate interconnection complexity, and region constraints (with up to 44.29% of instances falling under region constraints).
+- Led a team of 5 members and secured *2nd place* in the #link("https://ieeexplore.ieee.org/document/10299868/")[MLCAD 2023 FPGA Macro Placement Contest]. The bug-fixed version achieved the best results, outperforming the widely used industrial tool `Vivado` by 27.8% in terms of quality score and surpassing the 1st place winner by 6.9%.
+- Implemented a GPU-accelerated version utilizing CUDA, resulting in a speedup of 3.180$times$ compared to the 1st place winner, showcasing our commitment to pushing the boundaries of performance optimization in FPGA placement algorithms.
 
 
 *GPU-accelerated FPGA Placement and Routing Framework* #link("https://github.com/PKU-IDEA/OpenPARF")[github.com/PKU-IDEA/OpenPARF] #h(1fr) 2022/12 -- 2023/06 \
@@ -77,19 +77,19 @@ B.S. in Computer Science and Technology
 - *Top Contributor of `OpenPRAF`*. `OpenPRAF` is an open-source GPU-accelerated placement and routing algorithm framework for contemporary complex FPGA architectures, addressing the lack of high-quality open-source FPGA placement and routing frameworks in the academic community and promoting research at the nexus of electronic design automation (EDA) and machine learning.
 - *Performance Improvement*. Incorporated the latest research achievements in FPGA placement and routing techniques, achieved 12.7% better routed wirelengths on the ISPD 2016 dataset, along with over 2$times$ speedup in placement efficiency compared to other state-of-the-art placement engines.
 // - *Versatility and Generalization*. `OpenPARF` supports placement and routing on the advanced FPGA architecture `UltraScale+`, and provides an extensible configuration file for easy adaptation to other architectures.
-- *Developer Experience*. Initiated the development flow of the `Torch C++` API to foster agile C++/Python development.Implemented a flexible device configuration standard to enable seamless adaptation, thereby facilitating the versatile expansion of machine learning applications.
+- *Developer Experience*. Initiated the development flow of the `PyTorch C++` API to foster agile C++/Python co-development. Implemented a flexible device configuration standard to enable seamless adaptation, thereby facilitating the versatile expansion of machine learning applications.
 
 *FPGA Placement Algorithm Driven by Multiple Optimization Objectives* #h(1fr) 2022/07 - 2022/11 \
 // PKU-IDEA Group, advised by Prof. Yibo Lin #h(1fr) Beijing, China \
-- Addressed the significant challenges posed by modern FPGA placement, which involves a mixed optimization problem with multiple objectives, including wirelength, routability, timing closure, and clock feasibility. Effectively handling these multiple objectives is crucial for developing efficient FPGA placement algorithms.
+- Addressed the challenges posed by modern FPGA placement, which involves a mixed optimization problem with multiple objectives, including wirelength, routability, timing closure, and clock feasibility, which is crucial for developing efficient FPGA placement algorithms.
 - Designed and implemented a nested Lagrangian relaxation framework that incorporates the aforementioned optimization objectives. Developed an effective timing-criticality-based net weighting scheme to handle time violations and integrated timing optimization into a continuous optimization algorithm.
 - Conducted experiments on industrial benchmarks, which demonstrated that the proposed algorithms achieved a 23.6% improvement in worst negative slack (WNS) and a 22.5% improvement in total negative slack (TNS) compared to state-of-the-art placers. Relevant works have been accepted by *TCAD 2023* (a flagship journal in the field of design automation).
 
 *Clock-aware FPGA Placement Algorithm Considering SLICEL-SLICEM Heterogeneity* #h(1fr) 2021/09 - 2022/06
 // PKU-IDEA Group, advised by Prof. Yibo Lin #h(1fr) Beijing, China \
 - Addressed the challenges posed by contemporary FPGAs, which exhibit asymmetric properties in SLICEL-SLICEM heterogeneity and limited clock routing resources, making it difficult to achieve clock-feasible placement solutions.
-- Developed a novel multi-electrostatic formulation to effectively handle the asymmetric slice compatibility resulting from SLICEL-SLICEM heterogeneity. Introduced a quadratic penalization technique to eliminate violations of discrete clock constraints.
-- Conducted experiments on ISPD 2017 contest benchmarks, showcasing a remarkable 14.2% improvement in routed wirelength compared to state-of-the-art FPGA placers. Relevant works has been accepted by *DAC 2022* (a premier conference in the field of computer architecture).
+- Developed a novel multi-electrostatic formulation to effectively handle the asymmetric SLICE compatibility resulting from SLICEL-SLICEM heterogeneity. Introduced a quadratic penalization technique to eliminate violations of discrete clock constraints.
+- Conducted experiments on ISPD 2017 contest benchmarks, showcasing a 14.2% improvement in routed wirelength compared to state-of-the-art FPGA placers. Relevant works has been accepted by *DAC 2022* (a premier conference in the field of computer architecture).
 
 // == Open-Source Contributions
 // #chiline()
